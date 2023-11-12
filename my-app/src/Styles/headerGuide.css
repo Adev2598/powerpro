@@ -1,0 +1,15 @@
+:root {
+    --sub-heading-2-font-family: "Inter-Medium", Helvetica;
+    --sub-heading-2-font-weight: 500;
+    --sub-heading-2-font-size: 16px;
+    --sub-heading-2-letter-spacing: 0px;
+    --sub-heading-2-line-height: normal;
+    --sub-heading-2-font-style: normal;
+    --paragraph-1-font-family: "Inter-Regular", Helvetica;
+    --paragraph-1-font-weight: 400;
+    --paragraph-1-font-size: 20px;
+    --paragraph-1-letter-spacing: 0px;
+    --paragraph-1-line-height: normal;
+    --paragraph-1-font-style: normal;
+  }
+  

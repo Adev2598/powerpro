@@ -1,0 +1,507 @@
+.header-section {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    margin-left: 45px;
+  }
+  
+  .header-section .frame {
+    position: relative;
+    width: 1440px;
+    height: 698px;
+  }
+  
+  .header-section .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 71px;
+    position: absolute;
+    top: 20px;
+    left: 165px;
+  }
+  
+  .header-section .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 118px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 200px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .ri-thunderstorms {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .header-section .text-wrapper {
+    position: relative;
+    width: 132px;
+    height: 20px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -1.1px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .header-section .frame-5 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-6 {
+    display: flex;
+    width: 102.31px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+  }
+  
+  .header-section .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--sub-heading-2-font-family);
+    font-weight: var(--sub-heading-2-font-weight);
+    color: #ffffff;
+    font-size: var(--sub-heading-2-font-size);
+    letter-spacing: var(--sub-heading-2-letter-spacing);
+    line-height: var(--sub-heading-2-line-height);
+    white-space: nowrap;
+    font-style: var(--sub-heading-2-font-style);
+  }
+  
+  .header-section .vector {
+    position: relative;
+    width: 11.31px;
+    height: 7.54px;
+  }
+  
+  .header-section .frame-7 {
+    display: flex;
+    width: 113.31px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+  }
+  
+  .header-section .frame-8 {
+    display: flex;
+    width: 74.31px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+  }
+  
+  .header-section .frame-9 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 23px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .contact-sales-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .header-section .contact-sales {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .header-section .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .header-section .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .header-section .frame-10 {
+    display: inline-flex;
+    align-items: center;
+    gap: 146px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-11 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-12 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header-section .the-only-AI-CRM-for {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 72px;
+    letter-spacing: -2.2px;
+    line-height: normal;
+  }
+  
+  .header-section .respond-to-leads {
+    position: relative;
+    width: fit-content;
+    font-family: var(--paragraph-1-font-family);
+    font-weight: var(--paragraph-1-font-weight);
+    color: #ffffff;
+    font-size: var(--paragraph-1-font-size);
+    letter-spacing: var(--paragraph-1-letter-spacing);
+    line-height: var(--paragraph-1-line-height);
+    font-style: var(--paragraph-1-font-style);
+  }
+  
+  .header-section .overlap-wrapper {
+    position: relative;
+    width: 460px;
+    height: 452px;
+  }
+  
+  .header-section .overlap {
+    position: relative;
+    height: 416px;
+    top: 64px;
+  }
+  
+  .header-section .image {
+    position: absolute;
+    width: 460px;
+    height: 270px;
+    top: 73px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .header-section .overlap-group-wrapper {
+    position: absolute;
+    width: 202px;
+    height: 416px;
+    top: 0;
+    left: 129px;
+    background-color: #ffffff;
+    border-radius: 36.89px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #d9d9d9;
+  }
+  
+  .header-section .overlap-group {
+    position: relative;
+    width: 205px;
+    height: 414px;
+    left: -2px;
+  }
+  
+  .header-section .rectangle {
+    position: absolute;
+    width: 198px;
+    height: 412px;
+    top: 2px;
+    left: 4px;
+    background-color: #f5f5f5;
+    border-radius: 36.89px;
+    border: 5.88px solid;
+    border-color: #ffffff;
+  }
+  
+  .header-section .overlap-2 {
+    position: absolute;
+    width: 194px;
+    height: 409px;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .header-section .img {
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    top: 406px;
+    left: 34px;
+  }
+  
+  .header-section .rectangle-2 {
+    position: absolute;
+    width: 2px;
+    height: 3px;
+    top: 36px;
+    left: 191px;
+  }
+  
+  .header-section .rectangle-3 {
+    position: absolute;
+    width: 2px;
+    height: 3px;
+    top: 363px;
+    left: 191px;
+  }
+  
+  .header-section .overlap-group-2 {
+    position: absolute;
+    width: 186px;
+    height: 401px;
+    top: 0;
+    left: 0;
+  }
+  
+  .header-section .screen-component {
+    position: absolute;
+    width: 186px;
+    height: 401px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/ivUDHWNg/img/paste-your-design-here-1@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .header-section .image-2 {
+    position: absolute;
+    width: 189px;
+    height: 401px;
+    top: 0;
+    left: -3px;
+  }
+  
+  .header-section .pill {
+    position: absolute;
+    width: 58px;
+    height: 17px;
+    top: 6px;
+    left: 64px;
+    background-color: #ffffff;
+    border-radius: 11.02px;
+  }
+  
+  .header-section .ellipse {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 9px;
+    left: 108px;
+    background-color: #ffffff;
+    border-radius: 4.78px;
+  }
+  
+  .header-section .vector-2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 9px;
+    left: 107px;
+  }
+  
+  .header-section .vector-3 {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 11px;
+    left: 109px;
+  }
+  
+  .header-section .rectangle-4 {
+    position: absolute;
+    width: 44px;
+    height: 2px;
+    top: -6px;
+    left: 71px;
+  }
+  
+  .header-section .rectangle-5 {
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    top: 0;
+    left: 159px;
+  }
+  
+  .header-section .rectangle-6 {
+    position: absolute;
+    width: 2px;
+    height: 3px;
+    top: 44px;
+    left: 2px;
+  }
+  
+  .header-section .rectangle-7 {
+    position: absolute;
+    width: 2px;
+    height: 3px;
+    top: 371px;
+    left: 2px;
+  }
+  
+  .header-section .mockup {
+    position: absolute;
+    width: 205px;
+    height: 102px;
+    top: 80px;
+    left: 0;
+  }
+  
+  .header-section .overlap-3 {
+    position: relative;
+    height: 102px;
+  }
+  
+  .header-section .group {
+    position: absolute;
+    width: 205px;
+    height: 102px;
+    top: 0;
+    left: 0;
+  }
+  
+  .header-section .rectangle-8 {
+    position: absolute;
+    width: 1px;
+    height: 32px;
+    top: 70px;
+    left: 1px;
+    background-color: #ffffff;
+    border-radius: 0.88px 0px 0px 0.88px;
+  }
+  
+  .header-section .rectangle-9 {
+    position: absolute;
+    width: 1px;
+    height: 32px;
+    top: 30px;
+    left: 1px;
+    background-color: #ffffff;
+    border-radius: 0.88px 0px 0px 0.88px;
+  }
+  
+  .header-section .rectangle-10 {
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff33;
+    border-radius: 0.88px 0px 0px 0.88px;
+  }
+  
+  .header-section .rectangle-11 {
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    top: 52px;
+    left: 204px;
+    background-color: #ffffff;
+    border-radius: 0px 0.88px 0.88px 0px;
+  }
+  
+  .header-section .vector-4 {
+    position: absolute;
+    width: 3px;
+    height: 17px;
+    top: 0;
+    left: 2px;
+    mix-blend-mode: multiply;
+  }
+  
+  .header-section .vector-5 {
+    position: absolute;
+    width: 3px;
+    height: 33px;
+    top: 30px;
+    left: 2px;
+    mix-blend-mode: multiply;
+  }
+  
