@@ -1,105 +1,63 @@
 import React from 'react'
-import '../Styles/FeatureStyle.css'
-import '../Styles/globalFeature.css'
-import '../Styles/featureGuide.css'
+import image9 from '../assets/image 9.png'
+import image7 from '../assets/image 7.png'
+import image15 from '../assets/image 15.png'
+import image16 from '../assets/image 16.png'
+import image8 from '../assets/image 8.png'
 
 const Features = () => {
   return (
-    <React.Fragment>
-        <div class="feature-section">
-      <div className="features-that-make">Features That Make Selling<br />Easier</div>
-      <div className="frame">
-        <div className="div">
-          <div className="frame-2"></div>
-          <div className="frame-3">
-            <div className="frame-4">
-              <div className="frame-5">
-                <div className="text-wrapper">AI CRM</div>
-                <p className="book-jobs-faster">Book jobs faster with <br />artificial intelligence</p>
-              </div>
-              <p className="p">
-                Secure more jobs with AI-powered customer relationship management tools designed to help you grow.
-              </p>
+    <>
+    <div className="text-center text-black text-6xl font-semibold font-['Inter'] py-32">Features  That Make Selling<br/>Easier </div>
+    
+    <div className='px-24'>
+      <div className='grid xl:grid-cols-2 sm:grid-cols-1 rounded-xl bg-indigo-700 px-48 py-8'>
+        <div className='pt-24 mt-14'>
+          <div className="text-white text-xl font-normal font-['Inter']">AI CRM</div>
+          <div className="text-white text-4xl font-semibold font-['Inter']">Book jobs faster with <br/>artificial intelligence</div>
+          <div className="pt-8 w-80 text-white text-xl font-normal font-['Inter']">Secure more jobs with AI-powered customer relationship management tools designed to help you grow.</div>
+        </div>
+
+        <div>
+          <img src={image9}/>
+          <img src={image7}/>
+        </div>
+
+      </div>
+    </div>
+
+    <div className='px-24 mt-14'>
+      <div className='grid xl:grid-cols-2 sm:grid-cols-1 gap-14'>
+        <div className='bg-indigo-700 rounded-xl py-24'>
+          <img src={image16} className='ml-24 -mt-12'/>
+          <div className='pl-24'>
+          <div className="w-80 h-32 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="flex-col justify-start items-start gap-3.5 flex">
+              <div className="text-center text-white text-base font-normal font-['Inter']">Automated Replies</div>
+              <div className="text-white text-2xl font-semibold font-['Inter']">Instantly follow up <br/>with new customers</div>
             </div>
-            <div className="frame-5">
-              <img className="image" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-9@2x.png"} alt={'image'} loading='lazy'/>
-              <img className="img" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-7@2x.png"} alt={'image'} loading='lazy'/>
-            </div>
+        <div className="text-white text-sm font-normal font-['Inter'] -mt-4">Create an automated response to any contact form <br/>requests submitted to your Powerpro website</div>
+          </div>
           </div>
         </div>
-        <div className="frame-6">
-          <div className="frame-7">
-            <div className="frame-8"></div>
-            <div className="frame-9">
-              <div className="group">
-                <div className="overlap-group">
-                  <img className="image-2" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-16@2x.png"} alt={'image'} loading='lazy'/>
-                  <div className="frame-10">
-                    <div className="ellipse"></div>
-                    <img className="vector" src={"https://c.animaapp.com/Y6FbfLgQ/img/vector.svg"} alt={'image'} loading='lazy'/>
-                    <img className="vector-2" src={"https://c.animaapp.com/Y6FbfLgQ/img/vector-1.svg"} alt={'image'} loading='lazy'/>
-                  </div>
-                </div>
-              </div>
-              <div className="frame-11">
-                <div className="frame-5">
-                  <div className="text-wrapper-2">Automated Replies</div>
-                  <p className="text-wrapper-3">Instantly follow up <br />with new customers</p>
-                </div>
-                <p className="create-an-automated">
-                  Create an automated response to any contact form <br />requests submitted to your Powerpro website
-                </p>
-              </div>
+
+        <div className='bg-indigo-700 rounded-xl '>
+          <img src={image15} className='ml-32 mt-8'/>
+          <img src={image8} className='ml-24 -mt-20'/>
+
+          <div className="w-96 h-32 flex-col justify-start items-start gap-6 inline-flex pl-24">
+            <div className="flex-col justify-start items-start gap-3.5 flex">
+              <div className="text-center text-white text-base font-normal font-['Inter']">AI Generated Responess</div>
+              <div className="text-white text-2xl font-semibold font-['Inter']">Send personalized <br/>responses in one click</div>
             </div>
-          </div>
-          <div className="frame-12">
-            <div className="frame-13"></div>
-            <div className="frame-14">
-              <div className="overlap-wrapper">
-                <div className="overlap">
-                  <div className="overlap-2">
-                    <div className="image-wrapper">
-                      <img className="image-3" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-19@2x.png"} alt={'image'} loading='lazy'/>
-                    </div>
-                    <div className="img-wrapper">
-                      <img className="image-4" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-17@2x.png"} alt={'image'} loading='lazy'/>
-                    </div>
-                    <div className="overlap-group-wrapper">
-                      <div className="overlap-group-2">
-                        <img className="image-5" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-15@2x.png"} alt={'image'} loading='lazy'/>
-                        <img className="image-6" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-8@2x.png"} alt={'image'} loading='lazy'/>
-                        <img className="image-traced" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-24--traced-.svg"} alt={'image'} loading='lazy'/>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="frame-15">
-                    <img className="image-7" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-18@2x.png"} alt={'image'} loading='lazy'/>
-                  </div>
-                  <div className="frame-16">
-                    <img className="image-8" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-20@2x.png"} alt={'image'} loading='lazy'/>
-                  </div>
-                  <div className="frame-17">
-                    <img className="image-9" src={"https://c.animaapp.com/Y6FbfLgQ/img/image-21@2x.png"} alt={'image'} loading='lazy'/>
-                  </div>
-                </div>
-              </div>
-              <div className="frame-11">
-                <div className="frame-5">
-                  <div className="text-wrapper-2">AI Generated Responess</div>
-                  <p className="text-wrapper-3">Send personalized <br />responses in one click</p>
-                </div>
-                <p className="sync-your-email-to">
-                  Sync your email to Powerpro and instantly generate <br />unique customer responses based on past
-                  messages.
-                </p>
-              </div>
-            </div>
+          <div className="w-96 text-white text-sm font-normal font-['Inter']">Sync your email to Powerpro and instantly generate <br/>unique customer responses based on past messages.</div>
           </div>
         </div>
       </div>
     </div>
-    </React.Fragment>
-  )
+    </>
+    )
+
 }
 
 export default Features
